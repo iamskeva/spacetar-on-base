@@ -37,8 +37,8 @@ npm install
 * Create a file named .env in the root directory of the project.
 * Open the .env file and add the following variables:
 ```
-VITE_PROJECT_ID=YOUR_PROJECT_ID
-VITE_AVALANCHE_CONTRACT=YOUR_CONTRACT_ADDRESS
+VITE_BASE_PROJECT_ID=YOUR_PROJECT_ID
+VITE_BASE_CONTRACT=YOUR_CONTRACT_ADDRESS
 ```
 Replace YOUR_PROJECT_ID with your project ID and YOUR_CONTRACT_ADDRESS with the deployed contract address.
 
