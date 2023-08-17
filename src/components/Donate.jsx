@@ -7,8 +7,8 @@ import ethereum from "../assets/ethereum.png"
 import avax from "../assets/avax.png"
 
 function Donate() {
-  const [cryptoCoin, setCryptoCoin] = useState("AVAX");
-  const [cryptoShort, setCrpto] = useState("AVAX");
+  const [cryptoCoin, setCryptoCoin] = useState("Ethereum");
+  const [cryptoShort, setCrpto] = useState("ETH");
   const [active, setActive] = useState(true);
   const [activeTab, setActiveTab] = useState(1);
 
@@ -23,28 +23,13 @@ function Donate() {
       <DonatePage>
         <h1>Support What we're building</h1>
         <div style={{ display: 'flex',  justifyContent: 'center' }}>
-          <DonateButton
-            onClick={() => {
-              setCryptoCoin("AVAX");
-              setCrpto("AVAX");
-              setActive(true);
-              handleTabClick(1);
-            }}
-          >
-            <img src={avax}
-           alt="" 
-            style={{
-            width: '28%',
-          }}
-          />
-          </DonateButton>
 
           <DonateButton
             onClick={() => {
               setCryptoCoin("Ethereum");
               setCrpto("ETH");
               setActive(true);
-              handleTabClick(2);
+              handleTabClick(1);
             }}
           >
           <img src={ethereum}
@@ -61,14 +46,14 @@ function Donate() {
               setCryptoCoin("Tether");
               setCrpto("USDT");
               setActive(true);
-              handleTabClick(3);
+              handleTabClick(2);
             }}
           >
           <img src={tether}
            alt="" 
             style={{
-            width: '30%',
-            marginLeft: '-500px'
+            width: '40%',
+            marginLeft: '-700px'
           }}
           />
           </DonateButton>
@@ -78,14 +63,14 @@ function Donate() {
               setCryptoCoin("USD Coin");
               setCrpto("USDC");
               setActive(true);
-              handleTabClick(4);
+              handleTabClick(3);
             }}
           >
             <img src={usdc}
            alt="" 
             style={{
-            width: '30%',
-            marginLeft: '-650px'
+            width: '40%',
+            marginLeft: '-930px'
           }}
           />
           </DonateButton>
@@ -94,7 +79,6 @@ function Donate() {
           {activeTab === 1 && <DonateDetails cryptoCoin={cryptoCoin} cryptoShort={cryptoShort} />}
           {activeTab === 2 && <DonateDetails cryptoCoin={cryptoCoin} cryptoShort={cryptoShort} />}
           {activeTab === 3 && <DonateDetails cryptoCoin={cryptoCoin} cryptoShort={cryptoShort} />}
-          {activeTab === 4 && <DonateDetails cryptoCoin={cryptoCoin} cryptoShort={cryptoShort} />}
         </Detail>
       </DonatePage>
     </>
