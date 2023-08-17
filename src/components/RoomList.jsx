@@ -184,39 +184,33 @@ const RoomList = ({ query, isNavOpen, setIsNavOpen }) => {
       </Room>
 
       <ul>
-        {filteredRooms.map((room) => {
-          const { id, name, src, description } = room;
+        {filteredRooms.map((room) => (
+          <RoomItem
+            key={room.id} // Add unique key prop here
+            // active={currentRoom?.id === room.id}
+            onClick={() => {
+              setIsRoomOpen(false);
+              handleRoomClick(room.id);
+            }}
+          >
+            <img alt="room-img" src={room.src} />
 
-          return (
-            <>
-              <RoomItem
-                //   active={currentRoom?.id === id}
-                key={id}
-                onClick={() => {
-                  setIsRoomOpen(false);
-                  handleRoomClick(id);
+            <div>
+              <span>{room.name}</span>
+              <Description color="rgba(254,254,254,0.5)" size="0.7em">
+                {room.description}
+              </Description>
+
+              <div
+                style={{
+                  border: "1px solid rgba(254,254,254,0.1)",
+                  marginTop: "10px",
+                  paddingLeft: "10px",
                 }}
-              >
-                <img alt="room-img" src={src} />
-
-                <div>
-                  <span>{name}</span>
-                  <Description color="rgba(254,254,254,0.5)" size="0.7em">
-                    {description}
-                  </Description>
-
-                  <div
-                    style={{
-                      border: "1px solid rgba(254,254,254,0.1)",
-                      marginTop: "10px",
-                      paddingLeft: "10px",
-                    }}
-                  ></div>
-                </div>
-              </RoomItem>
-            </>
-          );
-        })}
+              ></div>
+            </div>
+          </RoomItem>
+        ))}
       </ul>
     </RoomListContainer>
   );
