@@ -1,0 +1,128 @@
+.getstartedimg img{
+    width: 100%;
+}
+
+.getstarted{
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.getstartedheader h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.getstartedheader p{
+line-height: 30px;
+font-size: 20px;
+}
+
+.getstardedcard{
+display: flex;
+flex-direction: column;
+gap: 30px;
+text-align: start;
+margin-top: 64px;
+}
+
+.card{
+   padding: 16px;
+   font-size: 20px;
+   border: 1px solid #E5E7EB;
+   border-radius: 12px;
+   line-height: 30px;
+}
+
+.step{
+    font-size: 14px;
+    color: #267DFF;
+}
+.card h3{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #374151;
+}
+
+.ready{
+background-color: #194185;
+padding: 30px 20px;
+color: white;
+}
+
+.ready h2{
+    font-size: 36px;
+}
+
+.ready p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 12px;
+    margin-bottom: 50px;  
+}
+
+@media screen and (min-width:500px) {
+    .getstarted{
+        margin: 40px 60px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .ready{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .readytext{
+        margin-right: 32px;
+        margin-top: 90px;
+    }
+
+
+    .readytext {
+        background-image: url(../../assets/readyarrow.png);
+        background-repeat: no-repeat;
+        background-position-x: 55%;
+        background-position-y: 93%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .readytext{
+        background-position-x: 55%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .getstardedcard{
+        flex-direction: row;
+    }
+    
+    .card p{
+        font-size: 18px;
+    }
+
+    .step{
+        font-size: 14px;
+    }
+
+    .getstartedheader{
+        margin: 0 auto;
+    }
+
+    .ready{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    .readytext {
+        background-position-x: 38%;
+    }
+}

@@ -1,0 +1,50 @@
+.optin {
+    margin-top: 8%;
+  }
+  .optin p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .optin-btn{
+    /* border: 1px solid black; */
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin:30px ;
+    font-weight: bold;
+    background-color: white;
+    color:#194185 ;
+    border: none;
+  }
+
+   a{
+    text-decoration: none;
+  }
+
+  .optin-btn a:hover{
+    color: white;
+  }
+  .optin-btn:hover{
+    border: 1px solid white;
+    color: #fff;
+    background: none;
+  }
+  
+  #modal {
+    position: fixed;
+    top: 100px;
+    left: 30%;
+    width: 500px;
+    background: #fff;
+    transition: opacity 1s;
+    box-shadow: 0 7px 2px #444;
+    z-index: 99999;
+    opacity: 0;
+  }
+
+  #modal .wrapper {
+    color: #444;
+    text-align: center;
+    padding: 30px;
+  }
+  

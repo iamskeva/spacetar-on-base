@@ -1,0 +1,12 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #f5faff;
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  padding: 18px 4vw;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    max-width: 1400px;
+}
