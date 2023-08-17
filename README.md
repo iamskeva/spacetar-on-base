@@ -27,7 +27,7 @@ To explore and interact with the Spacetar decentralized application (dApp) on yo
 2. Install Dependencies
 * Navigate to the cloned repository's directory:
 ```
-cd spacetar-on-avalanche
+cd spacetar-on-base
 ```
 * Install the required Node.js packages by running:
 ```
@@ -50,7 +50,7 @@ Your default web browser should automatically open and display the Spacetar dApp
 Now you can explore the various features of the Spacetar dApp locally, including joining Help Rooms, earning reward tokens, contributing to the community, and experiencing a transformative journey towards improved mental well-being.
 
 ## Using Spacetar on the Live Website
-To access and use the Spacetar decentralized application on the live website, simply visit https://spacestar-on-avalanche.vercel.app/.
+To access and use the Spacetar decentralized application on the live website, simply visit https://spacestar-on-base.vercel.app/.
 Here, you can seamlessly engage with all the empowering features that Spacetar has to offer. Join Help Rooms, earn reward tokens, contribute to the community, and embark on a meaningful journey towards enhanced mental well-being.
 
 
@@ -100,12 +100,12 @@ The development journey of Spacetar can be distilled into several pivotal stages
 
 ### Smart Contract Creation: 
 The foundation of Spacetar's decentralized ecosystem lies in its smart contracts. We meticulously crafted and deployed smart contracts on the Avalanche blockchain, ensuring the security and integrity of the platform. The verified contract address can be found here 
- https://testnet.snowtrace.io/address/0x4838854e5150e4345fb4ae837e9fcca40d51f3fe#code
+https://goerli.basescan.org/address/0x4838854e5150e4345fb4ae837e9fcca40d51f3fe#code
 
 ### Intuitive User Interface: 
-The design of the user interface was paramount in fostering a user-friendly and inviting experience. Employing Celo Composer, React.js, and other cutting-edge technologies, we fashioned an interface that facilitates seamless interactions with the underlying blockchain infrastructure.
+The design of the user interface was paramount in fostering a user-friendly and inviting experience. Employing Wagmi, React.js, and other cutting-edge technologies, we fashioned an interface that facilitates seamless interactions with the underlying blockchain infrastructure.
 
-We established a bridge between the frontend and the CELO blockchain. This enabled users to transparently engage with smart contracts and participate in the Spacetar community.
+We established a bridge between the frontend and the Base blockchain. This enabled users to transparently engage with smart contracts and participate in the Spacetar community.
 
 ## Challenges we ran into
 Our journey in bringing Spacetar to life was not devoid of challenges. Navigating the complexities of blockchain technology, designing a seamless user interface, and integrating various components required strategic problem-solving and persistent collaboration.
@@ -150,8 +150,7 @@ Spacetar represents more than a decentralized application; it's a movement. In t
 Join us in this transformative journey as we empower mental well-being, one connection and story at a time. Your voice matters, and Spacetar is here to amplify it.
 
 ## Useful Resources
-- Link to Deployed Website: https://spacetar-on-avalanche.vercel.app
-- Contract Address (0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe)
-- Link to Verified Contract Address on Avalanche Fuji Testnet: https://testnet.snowtrace.io/address/0x4838854e5150e4345fb4ae837e9fcca40d51f3fe#code
-- Link to Github Repo: https://github.com/amdonatusprince/spacetar-on-avalanche/edit
+- Link to Deployed Website: https://spacetar-on-base.vercel.app
+- Contract Address (0x4838854e5150e4345fb4ae837e9fcca40d51f3fe)
+- Link to Verified Contract Address on Base Goerli Testnet: https://goerli.basescan.org/address/0x4838854e5150e4345fb4ae837e9fcca40d51f3fe#code
 - Link to Spacetar DEMO Video: https://youtu.be/XgdbL20QwNg
