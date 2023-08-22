@@ -99,7 +99,7 @@ Through these dynamic features, Spacetar seeks to break down barriers, challenge
 The development journey of Spacetar can be distilled into several pivotal stages:
 
 ### Smart Contract Creation: 
-The foundation of Spacetar's decentralized ecosystem lies in its smart contracts. We meticulously crafted and deployed smart contracts on the Avalanche blockchain, ensuring the security and integrity of the platform. The verified contract address can be found here 
+The foundation of Spacetar's decentralized ecosystem lies in its smart contracts. We meticulously crafted and deployed smart contracts on the Base blockchain, ensuring the security and integrity of the platform. The verified contract address can be found here 
 https://goerli.basescan.org/address/0x4838854e5150e4345fb4ae837e9fcca40d51f3fe#code
 
 ### Intuitive User Interface: 
